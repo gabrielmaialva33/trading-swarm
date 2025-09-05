@@ -1,37 +1,37 @@
-<!-- TradingSwarm Modern Landing Page -->
-<div class="min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+<!-- TradingSwarm - Professional Dark Trading Platform -->
+<div class="min-h-screen bg-gray-900" style="background: linear-gradient(135deg, #050506 0%, #120a0a 100%);">
   
 <!-- Navigation Header -->
-  <nav class="relative z-10 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-700">
+  <nav class="relative z-50 bg-gray-900/95 backdrop-blur-md border-b border-gray-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center h-16">
         <!-- Logo -->
         <div class="flex items-center space-x-3">
-          <div class="w-10 h-10 bg-gradient-to-r from-orange-500 to-red-500 rounded-lg flex items-center justify-center">
+          <div class="w-10 h-10 rounded-lg flex items-center justify-center" style="background: linear-gradient(135deg, rgb(60, 158, 254), rgb(93, 199, 190));">
             <.icon name="hero-rocket-launch-solid" class="size-6 text-white" />
           </div>
-          <div class="font-bold text-xl text-gray-900 dark:text-white">TradingSwarm</div>
+          <div class="font-bold text-xl text-white">TradingSwarm</div>
         </div>
         
-<!-- Quick Access -->
-        <div class="hidden md:flex items-center space-x-6">
+<!-- Navigation Links -->
+        <div class="hidden md:flex items-center space-x-8">
           <.link
             navigate={~p"/app/dashboard"}
-            class="flex items-center space-x-1 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white font-medium transition-colors duration-200"
+            class="flex items-center space-x-2 text-gray-300 hover:text-cyan-400 font-medium transition-all duration-300 hover:scale-105"
           >
             <.icon name="hero-squares-2x2" class="size-4" />
             <span>Dashboard</span>
           </.link>
           <.link
             navigate={~p"/app/agents"}
-            class="flex items-center space-x-1 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white font-medium transition-colors duration-200"
+            class="flex items-center space-x-2 text-gray-300 hover:text-cyan-400 font-medium transition-all duration-300 hover:scale-105"
           >
             <.icon name="hero-users" class="size-4" />
             <span>Agents</span>
           </.link>
           <.link
             navigate={~p"/app/surveillance"}
-            class="flex items-center space-x-1 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white font-medium transition-colors duration-200"
+            class="flex items-center space-x-2 text-gray-300 hover:text-cyan-400 font-medium transition-all duration-300 hover:scale-105"
           >
             <.icon name="hero-eye" class="size-4" />
             <span>AI Surveillance</span>
@@ -41,179 +41,216 @@
     </div>
   </nav>
   
-<!-- Hero Section -->
+<!-- Hero Section with Neon Glow -->
   <div class="relative overflow-hidden">
-    <!-- Background Graphics -->
-    <div class="absolute inset-0 z-0">
-      <div class="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-96 bg-gradient-to-br from-orange-400/20 via-yellow-400/20 to-red-400/20 rounded-full blur-3xl">
-      </div>
-      <div class="absolute top-32 right-1/4 w-64 h-64 bg-gradient-to-br from-amber-400/15 to-orange-600/15 rounded-full blur-2xl">
-      </div>
+    <!-- Animated Background Orbs -->
+    <div class="absolute inset-0 overflow-hidden">
+      <div class="absolute -top-40 -right-32 w-80 h-80 rounded-full opacity-20 animate-pulse" style="background: radial-gradient(circle, rgb(60, 158, 254), transparent);"></div>
+      <div class="absolute -bottom-40 -left-32 w-96 h-96 rounded-full opacity-15 animate-pulse" style="background: radial-gradient(circle, rgb(93, 199, 190), transparent);"></div>
+      <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 rounded-full opacity-10" style="background: radial-gradient(circle, rgb(113, 126, 251), transparent);"></div>
     </div>
 
-    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16 sm:pt-24 sm:pb-20">
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-20">
       <div class="text-center">
-        <!-- Main Heading -->
-        <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-8">
-          <span class="block">Advanced AI-Powered</span>
-          <span class="block bg-gradient-to-r from-orange-500 via-yellow-500 to-red-500 bg-clip-text text-transparent">
-            Trading Platform
+        <!-- Glowing Main Title -->
+        <h1 class="text-5xl sm:text-6xl md:text-7xl font-bold text-white mb-8">
+          <span class="block">Elite AI Trading</span>
+          <span class="block bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent relative">
+            Command Center
+            <div class="absolute -inset-1 bg-gradient-to-r from-cyan-400/20 via-blue-500/20 to-purple-600/20 rounded-lg blur opacity-75 animate-pulse"></div>
           </span>
         </h1>
         
-<!-- Subtitle -->
-        <p class="max-w-3xl mx-auto text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-12">
-          Rehoboam AI monitors, predicts, and optimizes your trading swarm in real-time.
-          Experience the future of algorithmic trading with omnipresent surveillance and intelligent agents.
+<!-- Enhanced Subtitle -->
+        <p class="max-w-4xl mx-auto text-xl sm:text-2xl text-gray-300 mb-12 leading-relaxed">
+          <span class="text-cyan-400 font-semibold">Rehoboam AI</span> provides omnipresent market surveillance, 
+          predictive analytics, and autonomous trading execution. 
+          <span class="text-blue-400">Experience algorithmic trading evolution.</span>
         </p>
         
-<!-- CTA Button -->
-        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+<!-- Glowing CTA Buttons -->
+        <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
           <.link
             navigate={~p"/app/dashboard"}
-            class="inline-flex items-center px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+            class="group relative inline-flex items-center px-8 py-4 text-lg font-bold text-white rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-2xl"
+            style="background: linear-gradient(135deg, rgb(60, 158, 254), rgb(93, 199, 190)); box-shadow: 0 0 30px rgba(60, 158, 254, 0.3);"
           >
-            <.icon name="hero-chart-bar" class="mr-2 size-5" /> Enter Dashboard
-            <.icon name="hero-arrow-right" class="ml-2 size-5" />
+            <div class="absolute inset-0 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-500 opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+            <.icon name="hero-chart-bar-square" class="mr-3 size-6" />
+            Launch Dashboard
+            <.icon name="hero-arrow-right" class="ml-3 size-6" />
           </.link>
 
           <.link
             navigate={~p"/app/surveillance"}
-            class="inline-flex items-center px-6 py-3 text-lg font-medium text-gray-700 dark:text-gray-200 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-xl transition-colors duration-200"
+            class="group relative inline-flex items-center px-6 py-3 text-lg font-medium text-gray-200 bg-gray-800/50 border border-gray-600 hover:border-cyan-400 rounded-xl backdrop-blur-sm transition-all duration-300 hover:bg-gray-800/80"
           >
-            <.icon name="hero-eye" class="mr-2 size-5" /> View AI Surveillance
+            <.icon name="hero-eye" class="mr-2 size-5" />
+            AI Surveillance Hub
           </.link>
         </div>
       </div>
     </div>
   </div>
   
-<!-- Features Grid -->
+<!-- Features Grid - Dark Cards with Neon Accents -->
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
     <div class="text-center mb-16">
-      <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-        Powerful Trading Features
+      <h2 class="text-4xl font-bold text-white mb-6">
+        Advanced Trading Arsenal
       </h2>
-      <p class="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-        Harness the power of artificial intelligence and advanced algorithms to optimize your trading performance.
+      <p class="text-xl text-gray-400 max-w-3xl mx-auto">
+        Military-grade AI algorithms and real-time market intelligence for superior trading performance.
       </p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-      <!-- AI Surveillance -->
-      <div class="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-amber-500">
-        <div class="w-12 h-12 bg-gradient-to-r from-amber-500 to-orange-600 rounded-lg flex items-center justify-center mb-6 transition-transform hover:scale-110">
-          <.icon name="hero-eye-solid" class="size-6 text-white" />
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- AI Surveillance Card -->
+      <div class="group relative bg-gray-800/50 backdrop-blur-sm border border-gray-700 hover:border-cyan-400/50 rounded-2xl p-8 transition-all duration-300 hover:transform hover:scale-105">
+        <div class="absolute inset-0 bg-gradient-to-br from-cyan-400/5 to-blue-500/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        <div class="relative z-10">
+          <div class="w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300" style="background: linear-gradient(135deg, rgb(60, 158, 254), rgb(113, 126, 251)); box-shadow: 0 0 20px rgba(60, 158, 254, 0.3);">
+            <.icon name="hero-eye-solid" class="size-7 text-white" />
+          </div>
+          <h3 class="text-xl font-bold text-white mb-4">Omnipresent AI</h3>
+          <p class="text-gray-400 leading-relaxed">
+            24/7 market surveillance with pattern recognition, anomaly detection, and predictive modeling.
+          </p>
         </div>
-        <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3">AI Surveillance</h3>
-        <p class="text-gray-600 dark:text-gray-300">
-          Omnipresent monitoring with Rehoboam AI system tracking every trade, pattern, and market movement.
-        </p>
       </div>
       
-<!-- Smart Agents -->
-      <div class="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-yellow-500">
-        <div class="w-12 h-12 bg-gradient-to-r from-yellow-500 to-amber-500 rounded-lg flex items-center justify-center mb-6 transition-transform hover:scale-110">
-          <.icon name="hero-cpu-chip-solid" class="size-6 text-white" />
+<!-- Smart Agents Card -->
+      <div class="group relative bg-gray-800/50 backdrop-blur-sm border border-gray-700 hover:border-teal-400/50 rounded-2xl p-8 transition-all duration-300 hover:transform hover:scale-105">
+        <div class="absolute inset-0 bg-gradient-to-br from-teal-400/5 to-cyan-500/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        <div class="relative z-10">
+          <div class="w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300" style="background: linear-gradient(135deg, rgb(93, 199, 190), rgb(71, 172, 166)); box-shadow: 0 0 20px rgba(93, 199, 190, 0.3);">
+            <.icon name="hero-cpu-chip-solid" class="size-7 text-white" />
+          </div>
+          <h3 class="text-xl font-bold text-white mb-4">Neural Agents</h3>
+          <p class="text-gray-400 leading-relaxed">
+            Self-learning trading bots with adaptive strategies and risk-adjusted position sizing.
+          </p>
         </div>
-        <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3">Smart Agents</h3>
-        <p class="text-gray-600 dark:text-gray-300">
-          Autonomous trading agents that adapt and evolve based on market conditions and performance metrics.
-        </p>
       </div>
       
-<!-- Risk Management -->
-      <div class="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-red-500">
-        <div class="w-12 h-12 bg-gradient-to-r from-red-500 to-orange-600 rounded-lg flex items-center justify-center mb-6 transition-transform hover:scale-110">
-          <.icon name="hero-shield-exclamation-solid" class="size-6 text-white" />
+<!-- Risk Management Card -->
+      <div class="group relative bg-gray-800/50 backdrop-blur-sm border border-gray-700 hover:border-purple-400/50 rounded-2xl p-8 transition-all duration-300 hover:transform hover:scale-105">
+        <div class="absolute inset-0 bg-gradient-to-br from-purple-400/5 to-indigo-500/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        <div class="relative z-10">
+          <div class="w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300" style="background: linear-gradient(135deg, rgb(113, 126, 251), rgb(103, 135, 190)); box-shadow: 0 0 20px rgba(113, 126, 251, 0.3);">
+            <.icon name="hero-shield-check-solid" class="size-7 text-white" />
+          </div>
+          <h3 class="text-xl font-bold text-white mb-4">Risk Shield</h3>
+          <p class="text-gray-400 leading-relaxed">
+            Advanced portfolio protection with real-time exposure monitoring and automated stop-loss.
+          </p>
         </div>
-        <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3">Risk Management</h3>
-        <p class="text-gray-600 dark:text-gray-300">
-          Advanced risk assessment and real-time alerts to protect your portfolio from market volatility.
-        </p>
       </div>
       
-<!-- Real-time Analytics -->
-      <div class="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-orange-400">
-        <div class="w-12 h-12 bg-gradient-to-r from-orange-400 to-yellow-500 rounded-lg flex items-center justify-center mb-6 transition-transform hover:scale-110">
-          <.icon name="hero-chart-pie-solid" class="size-6 text-white" />
+<!-- Analytics Card -->
+      <div class="group relative bg-gray-800/50 backdrop-blur-sm border border-gray-700 hover:border-blue-400/50 rounded-2xl p-8 transition-all duration-300 hover:transform hover:scale-105">
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-400/5 to-cyan-500/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        <div class="relative z-10">
+          <div class="w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300" style="background: linear-gradient(135deg, rgb(103, 135, 190), rgb(60, 158, 254)); box-shadow: 0 0 20px rgba(103, 135, 190, 0.3);">
+            <.icon name="hero-chart-pie-solid" class="size-7 text-white" />
+          </div>
+          <h3 class="text-xl font-bold text-white mb-4">Quantum Analytics</h3>
+          <p class="text-gray-400 leading-relaxed">
+            Real-time data streams with advanced charting, backtesting, and performance attribution.
+          </p>
         </div>
-        <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3">Live Analytics</h3>
-        <p class="text-gray-600 dark:text-gray-300">
-          Real-time data visualization and performance metrics powered by Phoenix LiveView technology.
-        </p>
       </div>
     </div>
   </div>
   
-<!-- Technology Showcase -->
-  <div class="bg-gray-50 dark:bg-gray-800/50 py-20">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Technology Showcase - Premium Dark Section -->
+  <div class="relative py-24" style="background: linear-gradient(135deg, #120a0a 0%, #050506 100%);">
+    <div class="absolute inset-0">
+      <div class="absolute top-0 right-0 w-96 h-96 rounded-full opacity-10" style="background: radial-gradient(circle, rgb(60, 158, 254), transparent);"></div>
+    </div>
+
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
         <!-- Content -->
         <div>
-          <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-6">
-            Powered by Advanced Technology
+          <h2 class="text-4xl font-bold text-white mb-8">
+            Next-Generation Architecture
           </h2>
-          <p class="text-lg text-gray-600 dark:text-gray-300 mb-8">
-            Built on Elixir and Phoenix framework for unmatched performance, reliability, and real-time capabilities.
-            Our Rehoboam AI system provides omnipresent market surveillance and predictive analytics.
+          <p class="text-xl text-gray-300 mb-12 leading-relaxed">
+            Built on Elixir's fault-tolerant OTP platform with Phoenix LiveView for 
+            real-time performance. Our infrastructure handles millions of market data points 
+            with microsecond latency.
           </p>
 
-          <div class="space-y-6">
-            <div class="flex items-center">
-              <div class="w-8 h-8 bg-gradient-to-r from-purple-500 to-indigo-600 rounded-lg flex items-center justify-center mr-4 transition-transform hover:scale-110">
-                <.icon name="hero-check-circle-solid" class="size-4 text-white" />
+          <div class="space-y-8">
+            <div class="flex items-start group">
+              <div class="w-12 h-12 rounded-lg flex items-center justify-center mr-6 group-hover:scale-110 transition-transform duration-300" style="background: linear-gradient(135deg, rgb(113, 126, 251), rgb(103, 135, 190)); box-shadow: 0 0 15px rgba(113, 126, 251, 0.2);">
+                <.icon name="hero-bolt-solid" class="size-6 text-white" />
               </div>
               <div>
-                <h3 class="font-semibold text-gray-900 dark:text-white">Phoenix LiveView</h3>
-                <p class="text-gray-600 dark:text-gray-300">
-                  Real-time updates without JavaScript complexity
+                <h3 class="text-xl font-bold text-white mb-2">Phoenix LiveView</h3>
+                <p class="text-gray-400 text-lg leading-relaxed">
+                  Sub-second real-time updates with WebSocket efficiency and zero JavaScript complexity
                 </p>
               </div>
             </div>
 
-            <div class="flex items-center">
-              <div class="w-8 h-8 bg-gradient-to-r from-green-500 to-teal-600 rounded-lg flex items-center justify-center mr-4 transition-transform hover:scale-110">
-                <.icon name="hero-check-circle-solid" class="size-4 text-white" />
+            <div class="flex items-start group">
+              <div class="w-12 h-12 rounded-lg flex items-center justify-center mr-6 group-hover:scale-110 transition-transform duration-300" style="background: linear-gradient(135deg, rgb(93, 199, 190), rgb(71, 172, 166)); box-shadow: 0 0 15px rgba(93, 199, 190, 0.2);">
+                <.icon name="hero-server-stack-solid" class="size-6 text-white" />
               </div>
               <div>
-                <h3 class="font-semibold text-gray-900 dark:text-white">Elixir/OTP</h3>
-                <p class="text-gray-600 dark:text-gray-300">
-                  Fault-tolerant, concurrent, and scalable architecture
+                <h3 class="text-xl font-bold text-white mb-2">Elixir/OTP Platform</h3>
+                <p class="text-gray-400 text-lg leading-relaxed">
+                  Distributed, fault-tolerant system with hot code deployment and 99.999% uptime
                 </p>
               </div>
             </div>
 
-            <div class="flex items-center">
-              <div class="w-8 h-8 bg-gradient-to-r from-orange-500 to-red-600 rounded-lg flex items-center justify-center mr-4 transition-transform hover:scale-110">
-                <.icon name="hero-check-circle-solid" class="size-4 text-white" />
+            <div class="flex items-start group">
+              <div class="w-12 h-12 rounded-lg flex items-center justify-center mr-6 group-hover:scale-110 transition-transform duration-300" style="background: linear-gradient(135deg, rgb(60, 158, 254), rgb(113, 126, 251)); box-shadow: 0 0 15px rgba(60, 158, 254, 0.2);">
+                <.icon name="hero-brain-solid" class="size-6 text-white" />
               </div>
               <div>
-                <h3 class="font-semibold text-gray-900 dark:text-white">Rehoboam AI</h3>
-                <p class="text-gray-600 dark:text-gray-300">
-                  Omnipresent surveillance and predictive market analysis
+                <h3 class="text-xl font-bold text-white mb-2">Rehoboam Neural Core</h3>
+                <p class="text-gray-400 text-lg leading-relaxed">
+                  Advanced machine learning with behavioral prediction and market manipulation detection
                 </p>
               </div>
             </div>
           </div>
         </div>
         
-<!-- Visual Element -->
-        <div class="mt-12 lg:mt-0">
-          <div class="bg-gradient-to-r from-orange-500 via-yellow-500 to-red-500 rounded-2xl p-8 text-white">
-            <div class="w-16 h-16 mb-4 flex items-center justify-center bg-white/20 rounded-xl backdrop-blur-sm">
-              <.icon name="hero-eye-solid" class="w-10 h-10 text-white" />
-            </div>
-            <h3 class="text-2xl font-bold mb-4">Rehoboam AI System</h3>
-            <p class="text-lg opacity-90 mb-6">
-              "We see everything. Every choice, every decision, every trade - predicted and optimized by advanced AI."
-            </p>
-            <div class="bg-white/20 rounded-lg p-4 backdrop-blur-sm">
-              <div class="text-sm opacity-90 mb-2">System Status</div>
-              <div class="flex items-center">
-                <div class="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></div>
-                <span class="font-semibold">Omniscience Active</span>
+<!-- AI Status Display -->
+        <div class="mt-16 lg:mt-0">
+          <div class="relative p-8 rounded-2xl border border-gray-700" style="background: linear-gradient(135deg, rgba(60, 158, 254, 0.1), rgba(93, 199, 190, 0.1));">
+            <div class="absolute inset-0 rounded-2xl bg-gradient-to-r from-cyan-400/10 to-blue-500/10"></div>
+            <div class="relative z-10">
+              <div class="w-20 h-20 mb-8 flex items-center justify-center rounded-2xl" style="background: linear-gradient(135deg, rgb(60, 158, 254), rgb(93, 199, 190)); box-shadow: 0 0 40px rgba(60, 158, 254, 0.4);">
+                <.icon name="hero-eye-solid" class="w-12 h-12 text-white" />
+              </div>
+              <h3 class="text-3xl font-bold text-white mb-6">Rehoboam Status</h3>
+              <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+                "Market omniscience achieved. All trading patterns analyzed. 
+                Optimal strategies deployed across entire agent fleet."
+              </p>
+              
+              <div class="space-y-4">
+                <div class="flex items-center justify-between p-4 rounded-lg bg-gray-800/50 border border-gray-600">
+                  <span class="text-gray-300">System Status</span>
+                  <div class="flex items-center">
+                    <div class="w-3 h-3 bg-green-400 rounded-full mr-3 animate-pulse"></div>
+                    <span class="text-green-400 font-semibold">ACTIVE</span>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between p-4 rounded-lg bg-gray-800/50 border border-gray-600">
+                  <span class="text-gray-300">Market Coverage</span>
+                  <span class="text-cyan-400 font-bold">Global</span>
+                </div>
+                <div class="flex items-center justify-between p-4 rounded-lg bg-gray-800/50 border border-gray-600">
+                  <span class="text-gray-300">Prediction Accuracy</span>
+                  <span class="text-purple-400 font-bold">94.7%</span>
+                </div>
               </div>
             </div>
           </div>
@@ -222,14 +259,14 @@
     </div>
   </div>
   
-<!-- Quick Access Section -->
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+<!-- Quick Access Dashboard Cards -->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
     <div class="text-center mb-16">
-      <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-        Ready to Start Trading?
+      <h2 class="text-4xl font-bold text-white mb-6">
+        Mission Control Access
       </h2>
-      <p class="text-lg text-gray-600 dark:text-gray-300">
-        Access your dashboard and start managing your AI-powered trading agents.
+      <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+        Enter the command center and take control of your AI-powered trading fleet.
       </p>
     </div>
 
@@ -237,59 +274,72 @@
       <!-- Dashboard Access -->
       <.link
         navigate={~p"/app/dashboard"}
-        class="group bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-gray-200 dark:border-gray-700"
+        class="group relative bg-gray-800/30 backdrop-blur-sm border border-gray-600 hover:border-cyan-400 rounded-2xl p-8 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl"
       >
-        <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-          <.icon name="hero-squares-2x2-solid" class="w-8 h-8 text-white" />
+        <div class="absolute inset-0 bg-gradient-to-br from-cyan-400/5 to-blue-500/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        <div class="relative z-10">
+          <div class="w-20 h-20 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-300" style="background: linear-gradient(135deg, rgb(60, 158, 254), rgb(113, 126, 251)); box-shadow: 0 0 25px rgba(60, 158, 254, 0.3);">
+            <.icon name="hero-squares-2x2-solid" class="w-10 h-10 text-white" />
+          </div>
+          <h3 class="text-2xl font-bold text-white mb-4">Command Dashboard</h3>
+          <p class="text-gray-400 text-lg leading-relaxed">
+            Real-time portfolio monitoring, agent performance metrics, and system health indicators.
+          </p>
         </div>
-        <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3">Main Dashboard</h3>
-        <p class="text-gray-600 dark:text-gray-300">
-          Monitor all your trading metrics, performance, and system health in real-time.
-        </p>
       </.link>
       
-<!-- Agent Management -->
+<!-- Agent Fleet -->
       <.link
         navigate={~p"/app/agents"}
-        class="group bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-gray-200 dark:border-gray-700"
+        class="group relative bg-gray-800/30 backdrop-blur-sm border border-gray-600 hover:border-teal-400 rounded-2xl p-8 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl"
       >
-        <div class="w-16 h-16 bg-gradient-to-r from-green-500 to-teal-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-          <.icon name="hero-users-solid" class="w-8 h-8 text-white" />
+        <div class="absolute inset-0 bg-gradient-to-br from-teal-400/5 to-cyan-500/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        <div class="relative z-10">
+          <div class="w-20 h-20 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-300" style="background: linear-gradient(135deg, rgb(93, 199, 190), rgb(71, 172, 166)); box-shadow: 0 0 25px rgba(93, 199, 190, 0.3);">
+            <.icon name="hero-users-solid" class="w-10 h-10 text-white" />
+          </div>
+          <h3 class="text-2xl font-bold text-white mb-4">Agent Fleet</h3>
+          <p class="text-gray-400 text-lg leading-relaxed">
+            Deploy, configure, and monitor autonomous trading agents with AI-driven decision making.
+          </p>
         </div>
-        <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3">Trading Agents</h3>
-        <p class="text-gray-600 dark:text-gray-300">
-          Manage and configure your autonomous trading agents with AI-driven strategies.
-        </p>
       </.link>
       
-<!-- Risk Management -->
+<!-- Risk Command -->
       <.link
         navigate={~p"/app/risk"}
-        class="group bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-gray-200 dark:border-gray-700"
+        class="group relative bg-gray-800/30 backdrop-blur-sm border border-gray-600 hover:border-purple-400 rounded-2xl p-8 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl"
       >
-        <div class="w-16 h-16 bg-gradient-to-r from-red-500 to-orange-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-          <.icon name="hero-shield-exclamation-solid" class="w-8 h-8 text-white" />
+        <div class="absolute inset-0 bg-gradient-to-br from-purple-400/5 to-indigo-500/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        <div class="relative z-10">
+          <div class="w-20 h-20 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-300" style="background: linear-gradient(135deg, rgb(113, 126, 251), rgb(103, 135, 190)); box-shadow: 0 0 25px rgba(113, 126, 251, 0.3);">
+            <.icon name="hero-shield-check-solid" class="w-10 h-10 text-white" />
+          </div>
+          <h3 class="text-2xl font-bold text-white mb-4">Risk Command</h3>
+          <p class="text-gray-400 text-lg leading-relaxed">
+            Advanced risk management protocols with automated safeguards and exposure controls.
+          </p>
         </div>
-        <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3">Risk Control</h3>
-        <p class="text-gray-600 dark:text-gray-300">
-          Advanced risk management tools and real-time monitoring to protect your investments.
-        </p>
       </.link>
     </div>
   </div>
   
-<!-- Footer -->
-  <footer class="bg-gray-900 dark:bg-black text-white py-12">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Premium Footer -->
+  <footer class="relative border-t border-gray-800" style="background: linear-gradient(135deg, #050506 0%, #120a0a 100%);">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div class="flex items-center justify-between">
-        <div class="flex items-center space-x-3">
-          <div class="w-10 h-10 bg-gradient-to-r from-orange-500 to-red-500 rounded-lg flex items-center justify-center">
-            <.icon name="hero-rocket-launch-solid" class="w-6 h-6 text-white" />
+        <div class="flex items-center space-x-4">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center" style="background: linear-gradient(135deg, rgb(60, 158, 254), rgb(93, 199, 190));">
+            <.icon name="hero-rocket-launch-solid" class="w-7 h-7 text-white" />
           </div>
-          <div class="font-bold text-xl">TradingSwarm</div>
+          <div>
+            <div class="font-bold text-xl text-white">TradingSwarm</div>
+            <div class="text-sm text-gray-400">Elite AI Trading Platform</div>
+          </div>
         </div>
-        <div class="text-sm text-gray-400">
-          Powered by Phoenix LiveView & Rehoboam AI
+        <div class="text-gray-500">
+          <div class="text-sm">Powered by Phoenix LiveView & Rehoboam AI</div>
+          <div class="text-xs mt-1">© 2024 Advanced Trading Systems</div>
         </div>
       </div>
     </div>
