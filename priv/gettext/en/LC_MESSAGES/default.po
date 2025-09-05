@@ -1,0 +1,197 @@
+## `msgid`s in this file come from POT (.pot) files.
+##
+## Do not add, change, or remove `msgid`s manually here as
+## they're tied to the ones in the corresponding POT file
+## (with the same domain).
+##
+## Use `mix gettext.extract --merge` or `mix gettext.merge`
+## to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: en\n"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:45
+#, elixir-autogen
+msgid "Trading Platform"
+msgstr "Trading Platform"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:46
+#, elixir-autogen
+msgid "with Artificial Intelligence"
+msgstr "with Artificial Intelligence"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:22
+#, elixir-autogen
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:28
+#, elixir-autogen
+msgid "Agents"
+msgstr "Agents"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:34
+#, elixir-autogen
+msgid "AI Surveillance"
+msgstr "AI Surveillance"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:60
+#, elixir-autogen
+msgid "Access Dashboard"
+msgstr "Access Dashboard"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:68
+#, elixir-autogen
+msgid "View AI Surveillance"
+msgstr "View AI Surveillance"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:79
+#, elixir-autogen
+msgid "Main Features"
+msgstr "Main Features"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:82
+#, elixir-autogen
+msgid "Professional tools to maximize your results in the financial market."
+msgstr "Professional tools to maximize your results in the financial market."
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:93
+#, elixir-autogen
+msgid "Intelligent Surveillance"
+msgstr "Intelligent Surveillance"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:96
+#, elixir-autogen
+msgid "24/7 market monitoring with pattern detection and real-time alerts."
+msgstr "24/7 market monitoring with pattern detection and real-time alerts."
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:106
+#, elixir-autogen
+msgid "Autonomous Agents"
+msgstr "Autonomous Agents"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:109
+#, elixir-autogen
+msgid "Trading bots that learn and adapt to market conditions automatically."
+msgstr "Trading bots that learn and adapt to market conditions automatically."
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:119
+#, elixir-autogen
+msgid "Risk Management"
+msgstr "Risk Management"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:122
+#, elixir-autogen
+msgid "Advanced portfolio protection with exposure monitoring and automatic stop-loss."
+msgstr "Advanced portfolio protection with exposure monitoring and automatic stop-loss."
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:135
+#, elixir-autogen
+msgid "Cutting-edge Technology"
+msgstr "Cutting-edge Technology"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:138
+#, elixir-autogen
+msgid "Built with Elixir and Phoenix for maximum performance and reliability. Our infrastructure processes millions of market data points with minimal latency."
+msgstr "Built with Elixir and Phoenix for maximum performance and reliability. Our infrastructure processes millions of market data points with minimal latency."
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:147
+#, elixir-autogen
+msgid "Phoenix LiveView"
+msgstr "Phoenix LiveView"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:148
+#, elixir-autogen
+msgid "Real-time updates without complexity"
+msgstr "Real-time updates without complexity"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:157
+#, elixir-autogen
+msgid "Elixir/OTP"
+msgstr "Elixir/OTP"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:158
+#, elixir-autogen
+msgid "Distributed, fault-tolerant system"
+msgstr "Distributed, fault-tolerant system"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:167
+#, elixir-autogen
+msgid "Rehoboam AI"
+msgstr "Rehoboam AI"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:168
+#, elixir-autogen
+msgid "Advanced artificial intelligence for trading"
+msgstr "Advanced artificial intelligence for trading"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:181
+#, elixir-autogen
+msgid "Active System"
+msgstr "Active System"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:184
+#, elixir-autogen
+msgid "Online and operating"
+msgstr "Online and operating"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:192
+#, elixir-autogen
+msgid "Monitoring"
+msgstr "Monitoring"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:196
+#, elixir-autogen
+msgid "AI Precision"
+msgstr "AI Precision"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:209
+#, elixir-autogen
+msgid "Ready to Start?"
+msgstr "Ready to Start?"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:212
+#, elixir-autogen
+msgid "Access your control panel and start operating with artificial intelligence."
+msgstr "Access your control panel and start operating with artificial intelligence."
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:221
+#, elixir-autogen
+msgid "Access Main Dashboard"
+msgstr "Access Main Dashboard"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:229
+#, elixir-autogen
+msgid "Manage Agents"
+msgstr "Manage Agents"
+
+#: lib/trading_swarm_web/controllers/page_html/home.html.heex:246
+#, elixir-autogen
+msgid "Powered by Phoenix LiveView & Rehoboam AI"
+msgstr "Powered by Phoenix LiveView & Rehoboam AI"
+
+#: lib/trading_swarm_web/components/core_components.ex:343
+#, elixir-autogen, elixir-format
+msgid "Actions"
+msgstr ""
+
+#: lib/trading_swarm_web/components/layouts.ex:99
+#: lib/trading_swarm_web/components/layouts.ex:111
+#, elixir-autogen, elixir-format
+msgid "Attempting to reconnect"
+msgstr ""
+
+#: lib/trading_swarm_web/components/layouts.ex:106
+#, elixir-autogen, elixir-format
+msgid "Something went wrong!"
+msgstr ""
+
+#: lib/trading_swarm_web/components/layouts.ex:94
+#, elixir-autogen, elixir-format
+msgid "We can't find the internet"
+msgstr ""
+
+#: lib/trading_swarm_web/components/core_components.ex:75
+#, elixir-autogen, elixir-format
+msgid "close"
+msgstr ""
