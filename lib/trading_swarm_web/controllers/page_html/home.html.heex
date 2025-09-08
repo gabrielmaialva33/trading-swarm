@@ -1,7 +1,7 @@
 <!-- TradingSwarm - Clean & Minimal Trading Platform -->
 <div class="min-h-screen bg-white">
   
-  <!-- Navigation Header -->
+<!-- Navigation Header -->
   <nav class="bg-white border-b border-gray-200 sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center h-16">
@@ -13,76 +13,76 @@
           <span class="text-xl font-bold text-gray-900">TradingSwarm</span>
         </div>
         
-        <!-- Navigation Links -->
+<!-- Navigation Links -->
         <div class="hidden md:flex items-center space-x-8">
           <.link
             navigate={~p"/app/dashboard"}
             class="text-gray-600 hover:text-gray-900 font-medium transition-colors"
           >
-            <%= gettext("Dashboard") %>
+            {gettext("Dashboard")}
           </.link>
           <.link
             navigate={~p"/app/agents"}
             class="text-gray-600 hover:text-gray-900 font-medium transition-colors"
           >
-            <%= gettext("Agents") %>
+            {gettext("Agents")}
           </.link>
           <.link
             navigate={~p"/app/surveillance"}
             class="text-gray-600 hover:text-gray-900 font-medium transition-colors"
           >
-            <%= gettext("AI Surveillance") %>
+            {gettext("AI Surveillance")}
           </.link>
         </div>
       </div>
     </div>
   </nav>
   
-  <!-- Hero Section -->
+<!-- Hero Section -->
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
     <div class="text-center">
       <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-        <%= gettext("Trading Platform") %>
-        <span class="text-blue-600"><%= gettext("with Artificial Intelligence") %></span>
+        {gettext("Trading Platform")}
+        <span class="text-blue-600">{gettext("with Artificial Intelligence")}</span>
       </h1>
-      
+
       <p class="max-w-3xl mx-auto text-xl text-gray-600 mb-12 leading-relaxed">
-        O Rehoboam AI monitora mercados 24/7, executa estratégias automatizadas 
+        O Rehoboam AI monitora mercados 24/7, executa estratégias automatizadas
         e otimiza seu portfólio em tempo real. Trading inteligente e simplificado.
       </p>
-      
+
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <.link
           navigate={~p"/app/dashboard"}
           class="inline-flex items-center px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
         >
           <.icon name="hero-squares-2x2" class="size-5 mr-2" />
-          <%= gettext("Access Dashboard") %>
+          {gettext("Access Dashboard")}
         </.link>
-        
+
         <.link
           navigate={~p"/app/surveillance"}
           class="inline-flex items-center px-8 py-3 border border-gray-300 text-gray-700 font-semibold rounded-lg hover:bg-gray-50 transition-colors"
         >
           <.icon name="hero-eye" class="size-5 mr-2" />
-          <%= gettext("View AI Surveillance") %>
+          {gettext("View AI Surveillance")}
         </.link>
       </div>
     </div>
   </div>
   
-  <!-- Features Section -->
+<!-- Features Section -->
   <div class="bg-gray-50 py-24">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-3xl font-bold text-gray-900 mb-4">
-          <%= gettext("Main Features") %>
+          {gettext("Main Features")}
         </h2>
         <p class="max-w-2xl mx-auto text-lg text-gray-600">
-          <%= gettext("Professional tools to maximize your results in the financial market.") %>
+          {gettext("Professional tools to maximize your results in the financial market.")}
         </p>
       </div>
-      
+
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- Feature 1 -->
         <div class="bg-white p-8 rounded-xl shadow-sm">
@@ -90,87 +90,93 @@
             <.icon name="hero-eye" class="size-6 text-blue-600" />
           </div>
           <h3 class="text-xl font-semibold text-gray-900 mb-3">
-            <%= gettext("Intelligent Surveillance") %>
+            {gettext("Intelligent Surveillance")}
           </h3>
           <p class="text-gray-600">
-            <%= gettext("24/7 market monitoring with pattern detection and real-time alerts.") %>
+            {gettext("24/7 market monitoring with pattern detection and real-time alerts.")}
           </p>
         </div>
         
-        <!-- Feature 2 -->
+<!-- Feature 2 -->
         <div class="bg-white p-8 rounded-xl shadow-sm">
           <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-6">
             <.icon name="hero-cpu-chip" class="size-6 text-green-600" />
           </div>
           <h3 class="text-xl font-semibold text-gray-900 mb-3">
-            <%= gettext("Autonomous Agents") %>
+            {gettext("Autonomous Agents")}
           </h3>
           <p class="text-gray-600">
-            <%= gettext("Trading bots that learn and adapt to market conditions automatically.") %>
+            {gettext("Trading bots that learn and adapt to market conditions automatically.")}
           </p>
         </div>
         
-        <!-- Feature 3 -->
+<!-- Feature 3 -->
         <div class="bg-white p-8 rounded-xl shadow-sm">
           <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-6">
             <.icon name="hero-shield-check" class="size-6 text-red-600" />
           </div>
           <h3 class="text-xl font-semibold text-gray-900 mb-3">
-            <%= gettext("Risk Management") %>
+            {gettext("Risk Management")}
           </h3>
           <p class="text-gray-600">
-            <%= gettext("Advanced portfolio protection with exposure monitoring and automatic stop-loss.") %>
+            {gettext(
+              "Advanced portfolio protection with exposure monitoring and automatic stop-loss."
+            )}
           </p>
         </div>
       </div>
     </div>
   </div>
   
-  <!-- Technology Section -->
+<!-- Technology Section -->
   <div class="py-24">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
         <div>
           <h2 class="text-3xl font-bold text-gray-900 mb-6">
-            <%= gettext("Cutting-edge Technology") %>
+            {gettext("Cutting-edge Technology")}
           </h2>
           <p class="text-lg text-gray-600 mb-8">
-            <%= gettext("Built with Elixir and Phoenix for maximum performance and reliability. Our infrastructure processes millions of market data points with minimal latency.") %>
+            {gettext(
+              "Built with Elixir and Phoenix for maximum performance and reliability. Our infrastructure processes millions of market data points with minimal latency."
+            )}
           </p>
-          
+
           <div class="space-y-6">
             <div class="flex items-center">
               <div class="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center mr-4">
                 <.icon name="hero-bolt" class="size-4 text-purple-600" />
               </div>
               <div>
-                <h3 class="font-semibold text-gray-900"><%= gettext("Phoenix LiveView") %></h3>
-                <p class="text-gray-600"><%= gettext("Real-time updates without complexity") %></p>
+                <h3 class="font-semibold text-gray-900">{gettext("Phoenix LiveView")}</h3>
+                <p class="text-gray-600">{gettext("Real-time updates without complexity")}</p>
               </div>
             </div>
-            
+
             <div class="flex items-center">
               <div class="w-8 h-8 bg-indigo-100 rounded-lg flex items-center justify-center mr-4">
                 <.icon name="hero-server-stack" class="size-4 text-indigo-600" />
               </div>
               <div>
-                <h3 class="font-semibold text-gray-900"><%= gettext("Elixir/OTP") %></h3>
-                <p class="text-gray-600"><%= gettext("Distributed, fault-tolerant system") %></p>
+                <h3 class="font-semibold text-gray-900">{gettext("Elixir/OTP")}</h3>
+                <p class="text-gray-600">{gettext("Distributed, fault-tolerant system")}</p>
               </div>
             </div>
-            
+
             <div class="flex items-center">
               <div class="w-8 h-8 bg-teal-100 rounded-lg flex items-center justify-center mr-4">
                 <.icon name="hero-brain" class="size-4 text-teal-600" />
               </div>
               <div>
-                <h3 class="font-semibold text-gray-900"><%= gettext("Rehoboam AI") %></h3>
-                <p class="text-gray-600"><%= gettext("Advanced artificial intelligence for trading") %></p>
+                <h3 class="font-semibold text-gray-900">{gettext("Rehoboam AI")}</h3>
+                <p class="text-gray-600">
+                  {gettext("Advanced artificial intelligence for trading")}
+                </p>
               </div>
             </div>
           </div>
         </div>
-        
+
         <div class="mt-12 lg:mt-0">
           <div class="bg-gradient-to-r from-blue-50 to-indigo-50 p-8 rounded-xl">
             <div class="flex items-center mb-6">
@@ -178,22 +184,22 @@
                 <.icon name="hero-chart-bar" class="size-6 text-white" />
               </div>
               <div>
-                <h3 class="text-xl font-semibold text-gray-900"><%= gettext("Active System") %></h3>
+                <h3 class="text-xl font-semibold text-gray-900">{gettext("Active System")}</h3>
                 <div class="flex items-center mt-1">
                   <div class="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
-                  <span class="text-sm text-gray-600"><%= gettext("Online and operating") %></span>
+                  <span class="text-sm text-gray-600">{gettext("Online and operating")}</span>
                 </div>
               </div>
             </div>
-            
+
             <div class="grid grid-cols-2 gap-4">
               <div class="text-center">
                 <div class="text-2xl font-bold text-gray-900">24/7</div>
-                <div class="text-sm text-gray-600"><%= gettext("Monitoring") %></div>
+                <div class="text-sm text-gray-600">{gettext("Monitoring")}</div>
               </div>
               <div class="text-center">
                 <div class="text-2xl font-bold text-gray-900">94.7%</div>
-                <div class="text-sm text-gray-600"><%= gettext("AI Precision") %></div>
+                <div class="text-sm text-gray-600">{gettext("AI Precision")}</div>
               </div>
             </div>
           </div>
@@ -202,37 +208,37 @@
     </div>
   </div>
   
-  <!-- CTA Section -->
+<!-- CTA Section -->
   <div class="bg-blue-600 py-16">
     <div class="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
       <h2 class="text-3xl font-bold text-white mb-4">
-        <%= gettext("Ready to Start?") %>
+        {gettext("Ready to Start?")}
       </h2>
       <p class="text-xl text-blue-100 mb-8">
-        <%= gettext("Access your control panel and start operating with artificial intelligence.") %>
+        {gettext("Access your control panel and start operating with artificial intelligence.")}
       </p>
-      
+
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <.link
           navigate={~p"/app/dashboard"}
           class="inline-flex items-center px-8 py-3 bg-white text-blue-600 font-semibold rounded-lg hover:bg-gray-50 transition-colors"
         >
           <.icon name="hero-squares-2x2" class="size-5 mr-2" />
-          <%= gettext("Access Main Dashboard") %>
+          {gettext("Access Main Dashboard")}
         </.link>
-        
+
         <.link
           navigate={~p"/app/agents"}
           class="inline-flex items-center px-8 py-3 border border-blue-400 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
         >
           <.icon name="hero-users" class="size-5 mr-2" />
-          <%= gettext("Manage Agents") %>
+          {gettext("Manage Agents")}
         </.link>
       </div>
     </div>
   </div>
   
-  <!-- Footer -->
+<!-- Footer -->
   <footer class="bg-gray-900 text-white py-12">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between">
@@ -243,7 +249,7 @@
           <span class="text-xl font-bold">TradingSwarm</span>
         </div>
         <div class="text-gray-400 text-sm">
-          <%= gettext("Powered by Phoenix LiveView & Rehoboam AI") %>
+          {gettext("Powered by Phoenix LiveView & Rehoboam AI")}
         </div>
       </div>
     </div>
